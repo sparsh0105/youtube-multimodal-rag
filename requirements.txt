@@ -1,0 +1,41 @@
+# Core Python
+numpy>=2.0.0,<2.5.0
+scipy
+tqdm
+python-dotenv
+
+# YouTube download
+yt-dlp
+
+# Audio processing
+librosa
+soundfile
+
+# Whisper (speech-to-text)
+git+https://github.com/openai/whisper.git
+
+# Computer vision
+opencv-python
+pillow
+
+# Transformers & vision-language models (BLIP)
+
+transformers
+accelerate
+
+# Embeddings
+sentence-transformers
+
+# Vector database
+onnxruntime>=1.14.1
+chromadb>=1.4.0
+langchain-chroma>=0.1.2
+
+# LangChain ecosystem
+langchain
+langchain-community
+langchain-huggingface
+langchain-openai
+
+# UI
+streamlit
